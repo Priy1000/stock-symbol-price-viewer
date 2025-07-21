@@ -55,5 +55,5 @@ This app uses the **Finnhub API**, which requires a free API key.
 3. Open `script.js` (or `stockviewer.js`) and **replace** the placeholder key with your own:
 
 ```js
-const apiKey = "YOUR_API_KEY_HERE";
+const apiKey = "<enter your api key here>";
 
