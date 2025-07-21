@@ -52,7 +52,7 @@ This app uses the **Finnhub API**, which requires a free API key.
 
 1. Go to [Finnhub.io](https://finnhub.io) and sign up for a free account.
 2. Get your API key from the dashboard.
-3. Open `script.js` (or `stockviewer.js`) and **replace** the placeholder key with your own:
+3. Open `script.js` and **replace** the placeholder key with your own:
 
 ```js
 const apiKey = "<enter your api key here>";
