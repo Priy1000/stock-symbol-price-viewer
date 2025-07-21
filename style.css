@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    height: 100vh;
+    z-index: 2;
+}
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.4;  
+}
+input[type="text"] {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+
+ 

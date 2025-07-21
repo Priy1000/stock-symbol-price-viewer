@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+    <source src="https://videos.pexels.com/video-files/9421909/9421909-hd_1920_1080_25fps.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+    </video>
+    <div id="container">
+        <h1>Stock Price Viewer</h1>
+        <br>
+        <input id="symbol" type="text" placeholder="Enter International Stock Symbol (e.g. AAPL)">
+        <br>
+        <!-- fetches international stock data for u -->
+        <button onclick="getStockData()">Get Price</button>
+        <br>
+        <p>(supports only international stock symbols)</p>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
