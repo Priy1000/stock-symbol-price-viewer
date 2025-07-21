@@ -44,3 +44,16 @@ A simple and clean web app that lets users check **live stock prices** by just e
 ```bash
 1. Clone the repository
 2. Open `index.html` in your browser
+```
+
+## 🔑 API Key Required
+
+This app uses the **Finnhub API**, which requires a free API key.
+
+1. Go to [Finnhub.io](https://finnhub.io) and sign up for a free account.
+2. Get your API key from the dashboard.
+3. Open `script.js` (or `stockviewer.js`) and **replace** the placeholder key with your own:
+
+```js
+const apiKey = "YOUR_API_KEY_HERE";
+
