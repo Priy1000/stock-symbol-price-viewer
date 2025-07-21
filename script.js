@@ -1,7 +1,7 @@
 // uses finnhub to fetch stock symbol data
 async function getStockData() {
     const symbol = document.getElementById("symbol").value.toUpperCase();
-    const apiKey = "d1v887pr01qosgq852n0d1v887pr01qosgq852ng";  
+    const apiKey = "<enter your api key here>";  
     const url = `https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apiKey}`;
 
     const outputDiv = document.getElementById("output");
